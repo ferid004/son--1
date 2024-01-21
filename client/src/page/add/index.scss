@@ -1,0 +1,60 @@
+#add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .form{
+        button{
+            all: unset;
+            border-radius: 12px;
+            cursor: pointer;
+            padding: 15px;
+            background-color: rgb(44, 201, 60);
+            color: white;
+        }
+        .em{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;  
+            gap: 10px;
+        }
+    }
+    .buttons{
+        display: flex;
+        gap: 10px;
+        
+        button{
+            all: unset;
+            border-radius: 12px;
+            cursor: pointer;
+            padding: 10px;
+            background-color: rgb(44, 133, 201);
+            color: white;
+        }
+    }
+    .table{
+        table{
+            text-align: center;
+            background-color: rgb(94, 231, 231);
+            button{
+                all: unset;
+                cursor: pointer;
+                padding: 5px;
+                background-color: red;
+                color: white;
+            }
+        }
+    }
+    tr:nth-child(even){
+        background-color: rgb(2, 122, 122);
+    }
+    td{
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: noWrap;
+    }
+}
